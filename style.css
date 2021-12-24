@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+header{
+    background-color: #4780E0;
+    height: 150px;
+}
+
+
+.conteudo-superior{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.conteudo-superior h1, h2{
+    margin-top: 30px;
+    color: #FFF;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 22px;
+}
+
+input{
+
+    display: block;
+    margin: 25px  auto auto auto;
+    width: 770px;
+    height: 40px;
+    outline: none;
+    padding: 10px;
+}
+
+input::placeholder{
+    padding: 20px;
+}
+
+
+
+.container-texto{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container-texto h2{
+
+    color: #313131;
+    margin-bottom: 10px;
+}
+
+.conteudo-main{
+    position: relative;
+}
+
+.conteudo-main #icone-1{
+    position: absolute;
+    right: 10px;
+}
+
+.conteudo-main p, span{
+    color:#B6B6B6;
+    margin-bottom: 10px;
+}
