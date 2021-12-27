@@ -57,6 +57,9 @@ input::placeholder{
 
 .conteudo-main{
     position: relative;
+    box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+    border-radius: 5px;
+    padding: 25px;
 }
 
 .conteudo-main #icone-1{
