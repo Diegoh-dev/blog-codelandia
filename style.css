@@ -80,6 +80,14 @@ input::placeholder{
     
 }
 
+@media (max-width: 375px){
+    input{
+        width: 80% ;
+        
+    }
+    
+}
+
 @media (max-width: 750px){
     .conteudo-main{
         width: 80%;
