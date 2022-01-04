@@ -71,3 +71,17 @@ input::placeholder{
     color:#B6B6B6;
     margin-bottom: 10px;
 }
+
+@media (max-width: 900px){
+    input{
+        width: 70% ;
+        
+    }
+    
+}
+
+@media (max-width: 750px){
+    .conteudo-main{
+        width: 80%;
+    }
+}
